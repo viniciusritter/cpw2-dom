@@ -64,7 +64,7 @@ function search(){
      search.innerHTML = "";
      for(let i = 0; i < data.length;i++){
          if(name==data[i].name.substring(0, name.length).toUpperCase()){
-            list.innerHTML+=  "<div>" + data[i].name + "</div";
+            search.innerHTML+=  "<div>" + data[i].name + "</div";
          }
      }
 }
